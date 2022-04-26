@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 9.5rem 34.0625rem;
+  height: 100vh;
 }
 
 /* typography */
@@ -97,8 +97,6 @@ hr {
 }
 
 .card__image {
-  /* width: 18.875rem;
-  height: 18.875rem; */
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
@@ -177,16 +175,11 @@ hr {
 
 /* CSS Media Query for Mobile viewport */
 @media screen and (max-width: 450px) {
-  /* body {
-    width: 20.4375rem;
-    height: 41.6875rem;
-  } */
-
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3.875rem 1.5rem;
+    height: 100vh;
   }
 
   .card {
@@ -205,7 +198,6 @@ hr {
   }
 
   .card__figcaption-2 {
-    /* margin: 1rem 0rem 1.5rem 0rem; */
     margin-top: -0.5rem;
   }
 
